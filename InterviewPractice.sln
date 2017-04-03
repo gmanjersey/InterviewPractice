@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPractice", "InterviewPractice\InterviewPractice.csproj", "{8A94EA9E-74E0-4FA4-AF0A-3F24BED5473E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPractice.Tests", "InterviewPractice.Tests\InterviewPractice.Tests.csproj", "{55C65F46-02F4-4F29-924E-E662B0F26840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap10CardLib", "Chap10CardLib\Chap10CardLib.csproj", "{293B8D5B-7056-4BA6-B8BF-9C9F0BADAC6D}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsWebApp1", "NodejsWebApp1\NodejsWebApp1.njsproj", "{9E65658C-31E1-418E-81D7-316666880EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapWeb", "BootstrapWeb\BootstrapWeb.csproj", "{C982C51E-F81C-4DE4-9AAE-22BDE19E5DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptWeb", "JavaScriptWeb\JavaScriptWeb.csproj", "{30F50F73-2301-432E-846B-2F86975C59BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKmCSharpePractice", "IKmCSharpePractice\IKmCSharpePractice.csproj", "{86F8D0F1-8C4D-455E-BB6C-A628A7ED6E94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A94EA9E-74E0-4FA4-AF0A-3F24BED5473E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A94EA9E-74E0-4FA4-AF0A-3F24BED5473E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A94EA9E-74E0-4FA4-AF0A-3F24BED5473E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A94EA9E-74E0-4FA4-AF0A-3F24BED5473E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C65F46-02F4-4F29-924E-E662B0F26840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C65F46-02F4-4F29-924E-E662B0F26840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C65F46-02F4-4F29-924E-E662B0F26840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C65F46-02F4-4F29-924E-E662B0F26840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293B8D5B-7056-4BA6-B8BF-9C9F0BADAC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293B8D5B-7056-4BA6-B8BF-9C9F0BADAC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293B8D5B-7056-4BA6-B8BF-9C9F0BADAC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293B8D5B-7056-4BA6-B8BF-9C9F0BADAC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E65658C-31E1-418E-81D7-316666880EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E65658C-31E1-418E-81D7-316666880EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E65658C-31E1-418E-81D7-316666880EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E65658C-31E1-418E-81D7-316666880EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C982C51E-F81C-4DE4-9AAE-22BDE19E5DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C982C51E-F81C-4DE4-9AAE-22BDE19E5DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C982C51E-F81C-4DE4-9AAE-22BDE19E5DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C982C51E-F81C-4DE4-9AAE-22BDE19E5DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F50F73-2301-432E-846B-2F86975C59BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F50F73-2301-432E-846B-2F86975C59BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F50F73-2301-432E-846B-2F86975C59BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F50F73-2301-432E-846B-2F86975C59BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F8D0F1-8C4D-455E-BB6C-A628A7ED6E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F8D0F1-8C4D-455E-BB6C-A628A7ED6E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F8D0F1-8C4D-455E-BB6C-A628A7ED6E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F8D0F1-8C4D-455E-BB6C-A628A7ED6E94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

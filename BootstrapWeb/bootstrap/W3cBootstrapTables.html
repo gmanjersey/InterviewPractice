@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bootstrap Tables</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Basic Table</h2>
+    <p> The <code>.table</code>class adds basic styling (light padding and horizontal dividers) to a table</p>
+    <p> The <code>.table-striped</code>class adds zebra-stripes to a table: </p>
+    <p> The <code>"table .table-bordered"</code>class adds borders on all sides of the table and cells:</p>
+    <p> The <code>.table-hover </code> class adds a hover effect (grey background color) on table rows:</p>
+    <p> The <code>.table-condensed </code> class makes a table more compact by cutting cell padding in half:</p>
+    <p> The Contextual classes can be used to color table rows (<code> &lt;tr&gt; </code>) or table cells (<code> &lt;td&gt; </code>):</p>
+    <table class="table table-bordered  table-striped table-hover table-condensed">
+        <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>LastName</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Default</td> 
+            <td>DefaultSon</td>
+            <td>Default@Defaultson.com</td>
+        </tr>
+        <tr class="success">
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@doe.com</td>
+        </tr>
+        <tr class="danger">
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>Mary@Moe.com</td>
+        </tr>
+        <tr class="warning">
+            <td>July</td>
+            <td>Dooley</td>
+            <td>July@Dooley.com</td>
+        </tr>
+        <tr class="active">
+            <td>October</td>
+            <td>Fest</td>
+            <td>October@Fest.com</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>The <code>.table-responsive</code> class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>      
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Anna</td>
+                    <td>Pitt</td>
+                    <td>35</td>
+                    <td>New York</td>
+                    <td>USA</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

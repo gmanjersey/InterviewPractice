@@ -1,0 +1,2 @@
+csc.exe /nologo hello.cs
+dir /b

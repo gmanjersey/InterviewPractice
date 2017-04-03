@@ -1,0 +1,4 @@
+IENUMERABLE - loop throught items in a collection
+ICollection - obtan the number of items in a collection and Copy Items to Array - Inherits IEnumerable
+IList - Provides list of item fo a collection and to access them inherits ICollection and IEnumerable
+IDictioary - similiar to ILIST but access to items by key

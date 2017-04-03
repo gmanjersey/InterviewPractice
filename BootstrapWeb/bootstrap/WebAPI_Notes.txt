@@ -1,0 +1,16 @@
+//1. You can return an error response to provide more detail.
+public HttpResponseMessage Get()
+{
+    HttpError myCustomError = new HttpError("The file has no content or rows to process.") { { "CustomErrorCode", 42 } };
+     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, myCustomError);
+ }
+
+
+//2. The HttpResponseMessage has been more or less replaced with IHttpActionResult. It is much cleaner an easier to use.
+public IHttpActionResult Get()
+{
+     Object obj = new Object();
+     if (obj == null)
+         return NotFound();
+     return Ok(obj);
+ }
