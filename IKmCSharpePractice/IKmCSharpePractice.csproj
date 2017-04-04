@@ -46,6 +46,7 @@
     <Compile Include="CookedFood.cs" />
     <Compile Include="Food.cs" />
     <Compile Include="FoodItem.cs" />
+    <Compile Include="myClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

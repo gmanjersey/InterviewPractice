@@ -17,6 +17,30 @@ namespace IKmCSharpePractice
             this._cookingMethod = cookingMethod;
         }
 
+        public static bool operator ==(CookedFood x, CookedFood y)
+        {
+            return object.Equals(x, y);
+        }
+
+
+        public static bool operator !=(CookedFood x, CookedFood y)
+        {
+            return !object.Equals(x, y);
+        }
+        
+        public override int GetHashCode()
+        {
+            return base.GetHashCode() ^ this._cookingMethod.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (!base.Equals(obj))
+                return false;
+            CookedFood rhs = (CookedFood) obj;
+            return this._cookingMethod == rhs._cookingMethod;
+        }
+
         public override string ToString()
         {
             return  string.Format("{0} {1}" ,_cookingMethod, Name);
@@ -50,5 +74,15 @@ namespace IKmCSharpePractice
             }
         }
 
+
+        private static void DisplayWhetherEqual(object food1, object food2)
+        {
+            if (food1 == food2)
+                Console.WriteLine(string.Format("{0,12} == {1}", food1, food2));
+            else
+            {
+                Console.WriteLine(string.Format("{0,12} != {1}", food1, food2));
+            }
+        }
     }
 }
